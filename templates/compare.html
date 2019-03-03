@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Compare Files</title>
+</head>
+{% extends "layout.html" %}
+{% block content %}
+<body>
+    <h3 align="left"><b>Select Files</b></h3>
+    <form method=post enctype=multipart/form-data>
+      <input type="file" name="file" multiple="True">
+      <input type=submit value=Upload>
+    </form>
+</body>
+{% endblock %}
+</html>
+
+
+   <!doctype html>
